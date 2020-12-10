@@ -1,0 +1,63 @@
+.global-container{
+    display: grid;
+    grid-template-columns: 35% auto;
+    height: 100%;
+}
+.right-menu{
+    background: #2980b9;
+}
+.right-menu-container{
+    height: 100%;
+    padding: 10px;
+}
+.login-form{
+    position: relative;
+    top: 250px;
+    width: 75%;
+    margin: auto;
+}
+.button-login.button{
+    width: 100%;
+    background: #fbc841;
+    color: white;
+    margin: 2px;
+}
+.button-login.google{
+    background: #df4a32;
+    color: white;
+}
+.button-login.google:hover{
+    background: #dc6350;
+    color: white;
+}
+.button-login.default:hover{
+    background: #9c7a23;
+    color: white;
+}
+.register-link{
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.login-type-separator{
+
+}
+.login-type-separator p{
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: gray;
+}
+.logo-container{
+    margin: auto;
+}
+.logo-container img{
+    position: relative;
+    top: 150px;
+    left: 20%;
+}
