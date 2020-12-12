@@ -1,21 +1,9 @@
 <?php namespace Library\Model\Store\Products;
 
-use Library\Model\DBase\DBaseContext;
-use PDO;
-use Exception;
+use Library\Model\DBase\BaseDatabaseContext;
 
-class ProductsManager
+class ProductsManager extends BaseDatabaseContext
 {
-    private PDO $DBContext;
-
-    public function __construct()
-    {
-        $this->DBContext = DBaseContext::GetContext();
-
-        if($this->DBContext == null)
-            throw new Exception("No valid DataBaseConnection");
-    }
-
     public function GetAllProducts(): ?array
     {
         $query = "SELECT DISTINCT Products.* FROM Products order by Label";

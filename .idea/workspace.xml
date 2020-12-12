@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="320a263e-4f5f-4847-8a43-d781cb0d762a" name="Default Changelist" comment="Added SemanticUI framework to the project!">
-      <change afterPath="$PROJECT_DIR$/App/Model/Store/Cart/CartManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Model/Store/Products/ProductsManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/780c3005-a09e-4c2a-91a2-43e1c5e5e27b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/780c3005-a09e-4c2a-91a2-43e1c5e5e27b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+    <list default="true" id="320a263e-4f5f-4847-8a43-d781cb0d762a" name="Default Changelist" comment="Implementation of Store for showing products and Cart to enable the user to controls items in cart;">
+      <change afterPath="$PROJECT_DIR$/App/Model/DBase/BaseDatabaseContext.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Model/Store/Cart/CartDisplayItemDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Model/StoreManager/ProductDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Store/Products/ProductDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Model/StoreManager/Store.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Authentication/DefaultAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Authentication/DefaultAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Registration/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Registration/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Store/Cart/CartManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Store/Cart/CartManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Store/Products/ProductsManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Store/Products/ProductsManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <workItem from="1607554491277" duration="2462000" />
       <workItem from="1607627038288" duration="734000" />
       <workItem from="1607730520686" duration="7614000" />
-      <workItem from="1607791995142" duration="5781000" />
+      <workItem from="1607791995142" duration="9856000" />
     </task>
     <task id="LOCAL-00001" summary="Delete the Lib Folder!">
       <created>1607730728033</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607730728033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementation of Store for showing products and Cart to enable the user to controls items in cart;">
+      <created>1607798012493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798012493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="First commit!" />
     <MESSAGE value="Delete the Lib Folder!" />
     <MESSAGE value="Added SemanticUI framework to the project!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SemanticUI framework to the project!" />
+    <MESSAGE value="Implementation of Store for showing products and Cart to enable the user to controls items in cart;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Store for showing products and Cart to enable the user to controls items in cart;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

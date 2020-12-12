@@ -1,19 +1,17 @@
 <?php namespace Library\Model\Authentication;
 
-use Library\Model\DBase\DBaseContext;
+use Library\Model\DBase\BaseDatabaseContext;
 
-class DefaultAuthenticator implements IAuthenticator
+class DefaultAuthenticator extends BaseDatabaseContext implements IAuthenticator
 {
     function Login(string $email, string $password): ?ApplicationUser
     {
         if (!isset($email) || !isset($password))
             return null;
 
-        $dBaseContext = DBaseContext::GetContext();
-
         $sqlQuery = "SELECT * FROM Ecommerce.Users WHERE email = :email";
 
-        $preparedQuery = $dBaseContext->prepare($sqlQuery);
+        $preparedQuery = $this->DBContext->prepare($sqlQuery);
 
         $preparedQuery->execute(array(":email" => $email));
 

@@ -1,17 +1,10 @@
 <?php namespace Library\Model\Registration;
 
-use Library\Model\DBase\DBaseContext;
-use PDO;
 
-class Register
+use Library\Model\DBase\BaseDatabaseContext;
+
+class Register  extends BaseDatabaseContext
 {
-    private PDO $dBaseContext;
-
-    public function __construct()
-    {
-        $this->dBaseContext = DBaseContext::GetContext();
-    }
-
     public function Register(string $alias, string $email, string $password):string
     {
         if(!isset($email) || !isset($alias) || !isset($password))
@@ -25,7 +18,7 @@ class Register
 
         $sqlQuery = "INSERT INTO Ecommerce.Users (Identifier, Email, Password, Alias) VALUES (:Identifier,:Email, :Password, :Alias)";
 
-        $preparedQuery = $this->dBaseContext->prepare($sqlQuery);
+        $preparedQuery = $this->DBContext->prepare($sqlQuery);
 
         $preparedQuery->execute(array(
             ":Identifier" =>uniqid(md5($password)),
@@ -43,7 +36,7 @@ class Register
     {
         $sqlQuery = "SELECT Identifier FROM Ecommerce.Users WHERE Email = :Email";
 
-        $preparedQuery = $this->dBaseContext->prepare($sqlQuery);
+        $preparedQuery = $this->DBContext->prepare($sqlQuery);
 
         $preparedQuery->execute(array(":Email" => $email));
 
