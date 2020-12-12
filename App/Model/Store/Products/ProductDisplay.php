@@ -1,14 +1,15 @@
-<?php namespace Library\Model\StoreManager;
+<?php namespace Library\Model\Store\Products;
 
 
 class ProductDisplay
 {
     public string $Identifier;
     public string $Label;
-    public string $Category;
+    public array  $Categories;
     public string $Reference;
     public string $Amount;
+    public string $Price;
     public string $Description;
-    public string $DisplayImagePath;
+    public string $Thumbnail;
     public ?array $Images;
 }
