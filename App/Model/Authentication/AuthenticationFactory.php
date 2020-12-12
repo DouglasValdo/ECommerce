@@ -1,8 +1,10 @@
 <?php namespace Library\Model\Authentication;
 
+use JetBrains\PhpStorm\Pure;
+
 class AuthenticationFactory
 {
-    public static function Authenticate(string $authenticator):?IAuthenticator
+    #[Pure] public static function Authenticate(string $authenticator):?IAuthenticator
     {
         switch ($authenticator)
         {
