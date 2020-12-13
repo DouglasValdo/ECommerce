@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_modules/.bin/babel ./Web/js/jsx -d ./Web/js/prod"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,15 @@
   },
   "homepage": "https://github.com/DouglasValdo/ECommerce#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "semantic-ui": "^2.4.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10"
   }
 }
