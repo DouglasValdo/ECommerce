@@ -1,12 +1,4 @@
-<?php
-require_once "../vendor/autoload.php";
-
-use Library\Model\Session\SessionEventType;
-use Library\Model\Session\SessionManager;
-
-if (SessionManager::call(SessionEventType::read, array("SessionID" => "user")) != null)
-    header("Location: home.php");
-?>
+<?php require_once "ValidatePageAccess.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,11 +33,10 @@ if (SessionManager::call(SessionEventType::read, array("SessionID" => "user")) !
     </div>
     <div class="right-menu">
         <div class="logo-container">
-            <img src="img/logo.png">
+            <img src="img/logo.png" alt="company-logo">
         </div>
     </div>
 </div>
 </body>
-<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-<script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 </html>

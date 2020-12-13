@@ -7,7 +7,6 @@ class SessionManager
     {
         if (static::start() == false)
             session_start();
-
         if($param == null || $param["SessionID"] == null)
             return null;
 
@@ -15,7 +14,6 @@ class SessionManager
 
         switch ($event) {
             case SessionEventType::write:
-                echo "called";
                 $data = $param["data"];
                 return static::$event($sessionID, $data);
             case SessionEventType::delete:

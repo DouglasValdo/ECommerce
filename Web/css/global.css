@@ -1,4 +1,4 @@
-@import "../semantic/dist/semantic.min.css";
+@import "../../src/semantic/dist/semantic.min.css";
 body{
     margin: 0;
     padding: 0;

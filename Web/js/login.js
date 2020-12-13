@@ -1,4 +1,4 @@
-
-$(document).ready(function (){CallToAllScript();});
-
-function CallToAllScript(){}
+//
+// $(document).ready(function (){CallToAllScript();});
+//
+// function CallToAllScript(){}
