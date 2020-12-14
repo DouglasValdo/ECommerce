@@ -2,181 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="320a263e-4f5f-4847-8a43-d781cb0d762a" name="Default Changelist" comment="Implementation of Store for showing products and Cart to enable the user to controls items in cart;">
-      <change afterPath="$PROJECT_DIR$/App/Model/System/ApplicationSystem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/ValidatePageAccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/accordion.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/ad.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/ad.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/api.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/breadcrumb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/breadcrumb.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/button.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/card.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/checkbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/checkbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/comment.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/container.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dimmer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dimmer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dimmer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dimmer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/divider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/divider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dropdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/dropdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/embed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/embed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/embed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/embed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/flag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/flag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/form.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/form.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/header.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/icon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/image.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/input.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/item.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/label.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/label.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/loader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/message.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/modal.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/modal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/nag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/nag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/nag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/nag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/placeholder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/placeholder.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/progress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/progress.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/progress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/rail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/rail.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/rating.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/reset.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/reveal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/reveal.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/search.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/search.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/segment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/segment.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/shape.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/shape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/shape.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/shape.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sidebar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sidebar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/site.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/site.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/statistic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/statistic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/step.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sticky.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sticky.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/sticky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/tab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/tab.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/tab.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/transition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/transition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/transition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/visibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/components/visibility.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/semantic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/semantic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/semantic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/semantic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/basic/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/basic/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/basic/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/basic/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/default/assets/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/github/assets/fonts/octicons-local.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/github/assets/fonts/octicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/github/assets/fonts/octicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/github/assets/fonts/octicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/material/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/material/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/material/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/material/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/dist/themes/material/assets/fonts/icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Controller/StoreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/View/StoreView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/img/Products/107484-750826004460f_1_g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/img/Products/162720-031286_1_g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/img/Products/781-0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/img/Products/95238-multiva-dog_1_g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/img/Products/pets-joint-support-chewables-for-dogs-cats-90-comprimidos-now.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Model/Session/SessionManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Session/SessionManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/loginRedirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web/loginRedirect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Store/Cart/CartManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Store/Cart/CartManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/img/Products/Chinelos/none_b0bf261b3e82c850fa7b57c6d144d14b_b0bf261.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/img/Products/Chinelos/none_c18c264bb1c6422ec19ed0dd7620e9e2_c18c264.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/img/Products/Chinelos/none_f64e57fb2034d57cc18de4c593d2cb45_f64e57f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +138,10 @@
       <workItem from="1607627038288" duration="734000" />
       <workItem from="1607730520686" duration="7614000" />
       <workItem from="1607791995142" duration="9856000" />
-      <workItem from="1607883457696" duration="5560000" />
+      <workItem from="1607883457696" duration="5752000" />
+      <workItem from="1607892758443" duration="5486000" />
+      <workItem from="1607947265483" duration="5272000" />
+      <workItem from="1607976669800" duration="6428000" />
     </task>
     <task id="LOCAL-00001" summary="Delete the Lib Folder!">
       <created>1607730728033</created>
@@ -322,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607885452546</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add semantic files to the project!&#10;Change user page access to one file;">
+      <created>1607890007668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607890007668</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +222,8 @@
     <MESSAGE value="Implementation of Store for showing products and Cart to enable the user to controls items in cart;" />
     <MESSAGE value="Creation of CartLibrary to management user buys;&#10;Classes that use database extended to use BaseDatabaseContext.php;&#10;Added class CartDisplayItemDisplay;" />
     <MESSAGE value="Reorganization of project libraries;&#10;Added new Libraries to the project {React, babel};" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganization of project libraries;&#10;Added new Libraries to the project {React, babel};" />
+    <MESSAGE value="Add semantic files to the project!&#10;Change user page access to one file;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add semantic files to the project!&#10;Change user page access to one file;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,10 +7,9 @@ class CartManager  extends BaseDatabaseContext
     public function GetUserCart(string $userIdentifier): ?array
     {
         if(!isset($userIdentifier)) return null;
-        return null;
 
         $query = "SELECT P.Identifier, Label, Price, Amount, ThumbnailRelativePath FROM ".
-                 "Cart LEFT JOIN Products P on Cart.Identifier = P.Identifier AND Cart.UserIdentifier = :userIdentifier";
+                 "Cart LEFT JOIN Products P on P.Identifier = Cart.ProductIdentifier AND Cart.UserIdentifier = :userIdentifier";
 
         $preparedQuery = $this->DBContext->prepare($query);
 
